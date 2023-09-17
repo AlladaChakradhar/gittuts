@@ -7,6 +7,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.NamedQuery;
 
+//This entity annotation is for mapping java with database
+
 @Entity
 @NamedQuery(name="find_all_persons", query="select p from Person p")
 public class Person {
